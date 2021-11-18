@@ -650,7 +650,7 @@ int	mkpath(const char *);
 #define MAX_RSYNC_PROCESSES	16
 
 /* Maximum allowd repositories per tal */
-#define MAX_REPO_PER_TAL	1000
+#define MAX_REPO_PER_TAL	10
 
 /* Maximum number of delta files per RRDP notification file. */
 #define MAX_RRDP_DELTAS		300
